@@ -131,7 +131,7 @@ export const experiences: Experience[] = [
   },
   {
     id: "nyc",
-    experience: "moved to nyc at 18",
+    experience: "moved to nyc at 19",
     image: "/experiences/nyc.jpeg",
     lines: [
       "lived in brooklyn, jersey city, and a 10-woman bedroom in a UWS hostel!",
