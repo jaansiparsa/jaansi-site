@@ -135,7 +135,7 @@ export const experiences: Experience[] = [
     image: "/experiences/nyc.jpeg",
     lines: [
       "lived in brooklyn, jersey city, and a 10-woman bedroom in a UWS hostel!",
-      "knew no one!  had lots of fun",
+      "knew no one! made friends ate food had lots of fun",
     ],
   },
   {
