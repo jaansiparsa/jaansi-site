@@ -203,11 +203,13 @@ export const experiences: Experience[] = [
     id: "unicef",
     experience: "built software for UNICEF",
     period: "fall 2024",
-    work: "learning passport — cost modeling & course recommendations",
+    lines: [
+      "added course recommendations feature to Learning Passport, UNICEF's learning platform used by 6M+ students in developing countries",
+    ],
   },
   {
     id: "berkeley-start",
-    experience: "started at uc berkeley",
+    experience: "started at UC Berkeley",
     period: "august 2024",
     image: "/experiences/biggame.png",
     lines: [
