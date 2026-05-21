@@ -1,5 +1,5 @@
 export const site = {
-  name: "Jaan Siparsa",
+  name: "Jaansi Parsa",
   email: "jaansi@berkeley.edu",
 } as const;
 

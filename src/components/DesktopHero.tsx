@@ -31,7 +31,7 @@ export function DesktopHero() {
 
         <img
           src="/heropic.png"
-          alt="Jaan working on a laptop"
+          alt="Jaansi working on a laptop"
           className="hero-photo"
         />
       </div>
