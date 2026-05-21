@@ -96,6 +96,8 @@
   object-position: bottom center;
   pointer-events: none;
   user-select: none;
+  filter: drop-shadow(0 18px 28px rgba(42, 42, 42, 0.18))
+    drop-shadow(0 6px 12px rgba(42, 42, 42, 0.1));
 }
 
 @media (max-width: 640px) {

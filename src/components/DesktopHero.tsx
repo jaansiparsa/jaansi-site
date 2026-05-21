@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom'
-import { desktopItems } from '../site'
-import './DesktopHero.css'
+import { Link } from "react-router-dom";
+import { desktopItems } from "../site";
+import "./DesktopHero.css";
 
 export function DesktopHero() {
   return (
@@ -13,11 +13,11 @@ export function DesktopHero() {
             key={item.id}
             to={item.to}
             className={[
-              'desktop-item',
+              "desktop-item",
               item.size && `desktop-item--${item.size}`,
             ]
               .filter(Boolean)
-              .join(' ')}
+              .join(" ")}
             style={{
               top: item.top,
               left: item.left,
@@ -36,5 +36,5 @@ export function DesktopHero() {
         />
       </div>
     </section>
-  )
+  );
 }

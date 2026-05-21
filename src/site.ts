@@ -11,7 +11,7 @@ export const pages: Record<PageSlug, { title: string; paragraphs: string[] }> =
       title: "about",
       paragraphs: [
         "Hi, I'm Jaansi",
-        "I am from Michigan and Punjab and Andhra Pradesh and Maryland and Florida and California",
+        "I am from Michigan and Punjab and Telengana and Maryland and Florida and California",
         "I like learning && building && sharing knowledge && helping people!",
         "Super glad you're here <3",
       ],
@@ -213,8 +213,7 @@ export const experiences: Experience[] = [
     period: "august 2024",
     image: "/experiences/biggame.png",
     lines: [
-      "pursuing dual degrees in electrical engineering & computer science and business administration",
-      "M.E.T. program",
+      "pursuing dual degrees in electrical engineering & computer science and business administration as part of the Management, Entrepreneurship, and Technology (M.E.T.) program",
       "go bears!",
     ],
   },
