@@ -112,6 +112,16 @@ export const experiences: Experience[] = [
     period: "summer 2026",
   },
   {
+    id: "met-student-board",
+    experience: "giving back to M.E.T.",
+    period: "may 2026",
+    image: "/experiences/studentboard.jpg",
+    lines: [
+      "elected President for 2026-27 academic year, VP of Marketing & Engagement for 2025-26",
+      "if you're at the intersection of business x tech and interested in partnering, please reach out!",
+    ],
+  },
+  {
     id: "brex",
     experience: "swe intern @ Brex",
     period: "fall 2025",
@@ -208,10 +218,14 @@ export const experiences: Experience[] = [
   },
   {
     id: "live",
-    experience: "teaching assistant @ live by po-shen loh",
+    experience: "solved puzzles with kids",
     period: "2023 — 2024",
     image: "/experiences/teachinglive.png",
-    lines: ["i <3 teaching!"],
+    lines: [
+      "TA for [LIVE by Po-Shen Loh](https://live.poshenloh.com/)",
+      "taught 200+ students from 5+ countries",
+      "I love teaching so much <3",
+    ],
   },
 ];
 
