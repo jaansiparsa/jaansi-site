@@ -290,6 +290,33 @@ export const curationsBooks = [
   },
 ] as const;
 
+export const curationsMusic = [
+  {
+    title: "what you know",
+    cover: "/curations/music/whatyouknow.jpeg",
+  },
+  {
+    title: "white keys",
+    cover: "/curations/music/whitekeys.jpg",
+  },
+  {
+    title: "open my door",
+    cover: "/curations/music/openmydoor.jpeg",
+  },
+  {
+    title: "empire ants",
+    cover: "/curations/music/empireants.jpeg",
+  },
+  {
+    title: "die hard",
+    cover: "/curations/music/diehard.jpg",
+  },
+  {
+    title: "matt maltese entire discography",
+    cover: "/curations/music/mattmaltese.jpg",
+  },
+] as const;
+
 export function isPageSlug(value: string | undefined): value is PageSlug {
   return value !== undefined && value in pages;
 }

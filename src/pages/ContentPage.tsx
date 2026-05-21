@@ -4,6 +4,7 @@ import {
   aboutLinks,
   creations,
   curationsBooks,
+  curationsMusic,
   experiences,
   isPageSlug,
   pages,
@@ -146,21 +147,39 @@ export function ContentPage() {
       )}
 
       {slug === 'curations' && (
-        <section className="curations-section" aria-labelledby="five-star-reads">
-          <h2 id="five-star-reads" className="content-subheading">
-            five-star reads
-          </h2>
-          <ul className="curation-books">
-            {curationsBooks.map((book) => (
-              <li key={book.cover}>
-                <figure>
-                  <img src={book.cover} alt={book.title} loading="lazy" />
-                  <figcaption>{book.title}</figcaption>
-                </figure>
-              </li>
-            ))}
-          </ul>
-        </section>
+        <>
+          <section className="curations-section" aria-labelledby="five-star-reads">
+            <h2 id="five-star-reads" className="content-subheading">
+              five-star reads
+            </h2>
+            <ul className="curation-books">
+              {curationsBooks.map((book) => (
+                <li key={book.cover}>
+                  <figure>
+                    <img src={book.cover} alt={book.title} loading="lazy" />
+                    <figcaption>{book.title}</figcaption>
+                  </figure>
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <section className="curations-section" aria-labelledby="music">
+            <h2 id="music" className="content-subheading">
+              music
+            </h2>
+            <ul className="curation-books curation-music">
+              {curationsMusic.map((album) => (
+                <li key={album.cover}>
+                  <figure>
+                    <img src={album.cover} alt={album.title} loading="lazy" />
+                    <figcaption>{album.title}</figcaption>
+                  </figure>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </>
       )}
     </article>
   )
