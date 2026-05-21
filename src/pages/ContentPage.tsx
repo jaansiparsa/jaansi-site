@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { type ReactNode, useState } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import {
   aboutLinks,
@@ -10,6 +10,32 @@ import {
 } from '../site'
 import { CreationEntryCard } from '../components/CreationEntry'
 import './ContentPage.css'
+
+const lineLinkPattern = /\[([^\]]+)\]\(([^)]+)\)/g
+
+function renderExperienceLine(line: string): ReactNode {
+  lineLinkPattern.lastIndex = 0
+  const parts: ReactNode[] = []
+  let lastIndex = 0
+  let match: RegExpExecArray | null
+
+  while ((match = lineLinkPattern.exec(line)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(line.slice(lastIndex, match.index))
+    }
+    parts.push(
+      <a key={match.index} href={match[2]} target="_blank" rel="noreferrer">
+        {match[1]}
+      </a>,
+    )
+    lastIndex = match.index + match[0].length
+  }
+
+  lineLinkPattern.lastIndex = 0
+
+  if (lastIndex < line.length) parts.push(line.slice(lastIndex))
+  return parts.length === 1 ? parts[0] : parts
+}
 
 export function ContentPage() {
   const { slug } = useParams()
@@ -99,7 +125,7 @@ export function ContentPage() {
                     )}
                     {item.work && <p className="experience-work">{item.work}</p>}
                     {item.lines?.map((line) => (
-                      <p key={line}>{line}</p>
+                      <p key={line}>{renderExperienceLine(line)}</p>
                     ))}
                   </div>
                 </li>

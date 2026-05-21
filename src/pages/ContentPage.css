@@ -181,6 +181,16 @@
   margin: 0;
 }
 
+.experience-copy a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.experience-copy a:hover {
+  color: var(--muted);
+}
+
 .experience-title {
   font-weight: 500;
   color: var(--fg);

@@ -135,22 +135,32 @@ export const experiences: Experience[] = [
   },
   {
     id: "berkeley-education",
-    experience: "research assistant @ uc berkeley school of education",
-    period: "2024 — present",
-    work: "computational approaches to human learning lab",
+    experience: "ML in education research",
+    period: "2024 — 2025",
+    lines: [
+      "worked under Zach Pardos on OATutor",
+      "modeling student knowledge representations with Bayesian Knowledge Tracing",
+    ],
   },
   {
     id: "taro",
-    experience: "software engineer intern @ Taro",
+    experience: "fullstack @ Taro",
     period: "summer 2025",
-    work: "fullstack",
+    lines: [
+      "actually learned how to code (thanks to incredible mentors, Alex and Rahul)",
+      "revamped courses tab and built homepage (check it out [here](https://www.jointaro.com/)!)",
+      "acquired by Handshake in Dec 2025",
+    ],
   },
   {
     id: "adobe",
-    experience: "data & ai engineering @ Adobe",
+    experience: "data & AI engineering @ Adobe",
     period: "summer 2025",
     image: "/experiences/adobe.png",
-    work: "video marketing ai",
+    lines: [
+      "video marketing AI",
+      "led team for contract project with [Delta Consulting](https://delta.studentorg.berkeley.edu/)",
+    ],
   },
   {
     id: "skydiving",
@@ -160,10 +170,13 @@ export const experiences: Experience[] = [
   },
   {
     id: "sony",
-    experience: "machine learning engineer @ sony interactive entertainment",
+    experience: "machine learning for Sony Playstation",
     period: "spring 2025",
     image: "/experiences/sony.png",
-    work: "nlp for playstation chat moderation",
+    lines: [
+      "NLP for harmful text detection in PlayStation gaming chats",
+      "contract project with [Berkeley Codebase](https://codebase.studentorg.berkeley.edu/)",
+    ],
   },
   {
     id: "hair-dye",
@@ -173,7 +186,7 @@ export const experiences: Experience[] = [
     lines: [
       "thought it would be very short term",
       "have dyed it three times since",
-      "lowkey addicted",
+      "lowkey addicted now",
     ],
   },
   {
