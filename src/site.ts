@@ -18,7 +18,7 @@ export const pages: Record<PageSlug, { title: string; paragraphs: string[] }> =
     },
     creations: {
       title: "creations",
-      paragraphs: ["work in progress! adding more soon"],
+      paragraphs: ["more coming soon!"],
     },
     curations: {
       title: "curations",
@@ -230,7 +230,7 @@ export const experiences: Experience[] = [
   },
 ];
 
-export type CreationKind = "project" | "writing" | "art" | "other";
+export type CreationKind = "project" | "blog" | "writing" | "art" | "other";
 
 export type Creation = {
   id: string;
@@ -241,6 +241,13 @@ export type Creation = {
 };
 
 export const creations: Creation[] = [
+  {
+    id: "what-is-your-goal-in-life",
+    kind: "blog",
+    title: "What is your goal in life?",
+    description: ["I hope it is not happiness."],
+    href: "/blog/what-is-your-goal-in-life",
+  },
   {
     id: "discover-met",
     kind: "project",

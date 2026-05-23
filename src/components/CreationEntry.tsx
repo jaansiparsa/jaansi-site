@@ -1,16 +1,17 @@
-import type { Creation } from '../site'
-import './CreationEntry.css'
+import type { Creation } from "../site";
+import "./CreationEntry.css";
 
-const kindLabel: Record<Creation['kind'], string> = {
-  project: 'project',
-  writing: 'writing',
-  art: 'art',
-  other: 'other',
-}
+const kindLabel: Record<Creation["kind"], string> = {
+  project: "project",
+  blog: "blog",
+  writing: "writing",
+  art: "art",
+  other: "other",
+};
 
 export function CreationEntryCard({ item }: { item: Creation }) {
-  const href = item.href ?? ''
-  const external = href.startsWith('http')
+  const href = item.href ?? "";
+  const external = href.startsWith("http");
 
   return (
     <article className="creation-entry">
@@ -37,5 +38,5 @@ export function CreationEntryCard({ item }: { item: Creation }) {
         ))}
       </div>
     </article>
-  )
+  );
 }
