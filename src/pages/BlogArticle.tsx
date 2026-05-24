@@ -23,6 +23,12 @@ export function BlogArticlePage() {
         ← creations
       </Link>
       <h1>{post.title}</h1>
+      {post.description.map((line) => (
+        <p key={line} className="blog-subtitle">{line}</p>
+      ))}
+      {post.date && (
+        <time className="blog-date">{post.date}</time>
+      )}
       <div
         className="blog-article-body"
         dangerouslySetInnerHTML={{ __html: html }}

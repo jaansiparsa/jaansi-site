@@ -4,6 +4,7 @@ export type BlogPost = {
   slug: string;
   title: string;
   description: string[];
+  date?: string;
   body: string;
 };
 
@@ -12,6 +13,7 @@ export const blogPosts: BlogPost[] = [
     slug: "what-is-your-goal-in-life",
     title: "What is your goal in life?",
     description: ["I hope it is not happiness."],
+    date: "May 23, 2026",
     body: articleMarkdown,
   },
 ];

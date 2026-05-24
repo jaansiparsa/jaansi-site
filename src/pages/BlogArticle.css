@@ -1,5 +1,20 @@
 .blog-article h1 {
   text-transform: none;
+  margin-bottom: 0.5rem;
+}
+
+.blog-subtitle {
+  margin: 0 0 0.5rem;
+  font-style: italic;
+  color: var(--fg);
+  line-height: 1.55;
+}
+
+.blog-date {
+  display: block;
+  margin-bottom: 2.5rem;
+  font-size: 0.8125rem;
+  color: var(--muted);
 }
 
 .blog-article-body {

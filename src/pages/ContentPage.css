@@ -2,7 +2,7 @@
   --content-width: min(40rem, 100%);
   width: var(--content-width);
   margin: 0 auto;
-  padding: 3rem 0.5rem 4rem;
+  padding: 3rem clamp(1.25rem, 4vw, 1.5rem) 4rem;
 }
 
 .content-back {
