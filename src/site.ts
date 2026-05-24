@@ -237,6 +237,7 @@ export type Creation = {
   kind: CreationKind;
   title: string;
   description: string[];
+  date?: string;
   href?: string;
 };
 
@@ -246,6 +247,7 @@ export const creations: Creation[] = [
     kind: "blog",
     title: "What is your goal in life?",
     description: ["I hope it is not happiness."],
+    date: "May 23, 2026",
     href: "/blog/what-is-your-goal-in-life",
   },
   {
@@ -260,7 +262,7 @@ export const creations: Creation[] = [
   {
     id: "hydrate",
     kind: "project",
-    title: "hydrate",
+    title: "Hydrate",
     description: [
       "dating app where you get matched based on how yummy you think different water fountains are",
       "unfortunately did not win most useless hack at penn apps 2025",
@@ -270,7 +272,7 @@ export const creations: Creation[] = [
   {
     id: "foodwell",
     kind: "project",
-    title: "foodwell",
+    title: "Foodwell",
     description: [
       "end-to-end instacart but better (from taste profile to meal plans to ingredients at ur door!)",
       "won first place at YC Challenge at HackMIT 2025",

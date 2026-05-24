@@ -15,7 +15,10 @@ export function CreationEntryCard({ item }: { item: Creation }) {
 
   return (
     <article className="creation-entry">
-      <p className="creation-kind">{kindLabel[item.kind]}</p>
+      <p className="creation-kind">
+        {kindLabel[item.kind]}
+        {item.date ? ` · ${item.date}` : ""}
+      </p>
       {!href ? (
         <span className="creation-title">{item.title}</span>
       ) : external ? (
