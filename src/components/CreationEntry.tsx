@@ -1,5 +1,6 @@
-import type { Creation } from "../site";
 import "./CreationEntry.css";
+
+import type { Creation } from "../site";
 
 const kindLabel: Record<Creation["kind"], string> = {
   project: "project",

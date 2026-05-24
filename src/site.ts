@@ -101,15 +101,17 @@ export const experiences: Experience[] = [
   {
     id: "nooks",
     experience: "swe intern @ Nooks",
-    period: "fall 2026",
-    location: "san francisco",
+    period: "fall 2026, san francisco",
     image: "/experiences/nooks.png",
   },
   {
     id: "doordash",
-    experience: "swe intern @ Doordash",
-    location: "san francisco",
-    period: "summer 2026",
+    experience: "machine learning for Doordash ads economics",
+    lines: [
+      "thinking about ads auctions and optimization",
+      "ACTUALLY getting to apply knowledge from my favorite classes (yay!)",
+    ],
+    period: "summer 2026, san francisco",
   },
   {
     id: "met-student-board",
@@ -124,8 +126,7 @@ export const experiences: Experience[] = [
   {
     id: "brex",
     experience: "swe intern @ Brex",
-    period: "fall 2025",
-    location: "new york city",
+    period: "fall 2025, new york city",
     image: "/experiences/brexinterns.jpeg",
     work: "worked on bill pay and fraud detection agents",
   },
