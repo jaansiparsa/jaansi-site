@@ -226,7 +226,6 @@ export const experiences: Experience[] = [
     lines: [
       "TA for [LIVE by Po-Shen Loh](https://live.poshenloh.com/)",
       "taught 200+ students from 5+ countries",
-      "I love teaching so much <3",
     ],
   },
 ];
