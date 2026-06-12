@@ -230,7 +230,13 @@ export const experiences: Experience[] = [
   },
 ];
 
-export type CreationKind = "project" | "blog" | "writing" | "art" | "other";
+export type CreationKind =
+  | "project"
+  | "blog"
+  | "writing"
+  | "art"
+  | "video"
+  | "other";
 
 export type Creation = {
   id: string;
@@ -242,6 +248,14 @@ export type Creation = {
 };
 
 export const creations: Creation[] = [
+  {
+    id: "u4kscpqtfiq",
+    kind: "video",
+    title: "Satellite",
+    description: ["Showing my world my world!"],
+    date: "June 10, 2026",
+    href: "/video/u4kscpqtfiq",
+  },
   {
     id: "what-is-your-goal-in-life",
     kind: "blog",

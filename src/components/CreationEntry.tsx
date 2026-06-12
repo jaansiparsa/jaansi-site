@@ -7,6 +7,7 @@ const kindLabel: Record<Creation["kind"], string> = {
   blog: "blog",
   writing: "writing",
   art: "art",
+  video: "video",
   other: "other",
 };
 
