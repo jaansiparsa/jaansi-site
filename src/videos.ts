@@ -8,7 +8,7 @@ export type Video = {
 
 export const videos: Video[] = [
   {
-    slug: "u4kscpqtfiq",
+    slug: "satellite",
     title: "Satellite",
     description: ["Showing my world my world!"],
     date: "June 10, 2026",

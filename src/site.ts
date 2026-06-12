@@ -249,12 +249,12 @@ export type Creation = {
 
 export const creations: Creation[] = [
   {
-    id: "u4kscpqtfiq",
+    id: "satellite",
     kind: "video",
     title: "Satellite",
     description: ["Showing my world my world!"],
     date: "June 10, 2026",
-    href: "/video/u4kscpqtfiq",
+    href: "/video/satellite",
   },
   {
     id: "what-is-your-goal-in-life",
