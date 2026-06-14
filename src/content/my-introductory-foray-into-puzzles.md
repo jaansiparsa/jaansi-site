@@ -179,7 +179,7 @@ Maybe this is it.
 
 Bro. This was the same thing as 24, simply worse.
 
-ChatGPT continued to list ideas that already existed and/or were simply boring. Of course, my prompts could use some work, but I doubt that was the main issue. Okay, I thought (still lazy), maybe my free tier of ChatGPT just doesn't cut it!
+ChatGPT continued to list ideas that already existed and/or were simply boring. Of course, my prompts could use some work, but I doubt that was the main issue. _Okay_, I thought (still lazy), _maybe my free tier of ChatGPT just doesn't cut it!_
 
 A week or two ago I started paying for Claude Pro, so here was the perfect opportunity to put it to the test. Below is the following conversation I had with Claude:
 
