@@ -179,7 +179,7 @@ Maybe this is it.
 <p>This becomes surprisingly creative.</p>
 </aside>
 
-Bro. This was just like 24, if 24 were less fun.
+This was just like 24, if 24 had stupid rules and was less fun.
 
 ChatGPT continued to list ideas that already existed and/or were simply boring. Of course, my prompts could have used some work, but I doubt that was the main issue. More for fun now than anything else, I tried to see if Claude could do any better. To save you some time, I will simply tell you it could not.
 
