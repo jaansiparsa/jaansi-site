@@ -12,6 +12,8 @@ I pulled out my laptop.
 <p>i want to come up with a new game that is easy to get into and easy to make but requires thinking. something like wordle</p>
 </blockquote>
 
+(sorry for the poor prompting, I was _really_ sleepy)
+
 <aside class="blog-ai-response" data-model="chatgpt">
 <p class="blog-ai-label">ChatGPT</p>
 <p>A good "Wordle-like" game usually has these properties:</p>
@@ -177,63 +179,11 @@ Maybe this is it.
 <p>This becomes surprisingly creative.</p>
 </aside>
 
-Bro. This was the same thing as 24, simply worse.
+Bro. This was just like 24, if 24 were less fun.
 
-ChatGPT continued to list ideas that already existed and/or were simply boring. Of course, my prompts could have used some work, but I doubt that was the main issue. More for fun now than anything else, I tried to see if Claude could do any better:
+ChatGPT continued to list ideas that already existed and/or were simply boring. Of course, my prompts could have used some work, but I doubt that was the main issue. More for fun now than anything else, I tried to see if Claude could do any better. To save you some time, I will simply tell you it could not.
 
-<blockquote class="blog-prompt">
-<p>create a new, interesting, unique puzzle type that no one has created before.</p>
-</blockquote>
-
-<aside class="blog-ai-response" data-model="claude">
-<p class="blog-ai-label">Claude</p>
-<p>Here's an original puzzle type I'm calling Echo Logic — the core mechanic doesn't exist anywhere else.</p>
-<p>The idea: every word in the puzzle is secretly "echoing" one hidden word. You read five short clues, each pointing at a different property of the mystery word (its sound, its shape on the page, what it means, what it rhymes with, what category it belongs to). The twist is that the five clues are written as each other's opposites — so you have to triangulate from contradiction, not confirmation. No word bank, no grid. Pure deduction through contrast.</p>
-<p>The core innovation here is the contradiction mechanic — most puzzles give you converging clues that all point the same direction. Echo Logic gives you five lenses that seem to fight each other, and the answer is the only word that can survive all five at once. Each clue is specifically written to be undone by the next one, so you can't just solve one lens in isolation.</p>
-<p>Give it a try — type your guess and hit Submit. Hit Hint if you want nudges, and let me know what you think of the format!</p>
-</aside>
-
-Are we serious right now? Let me be more clear.
-
-<blockquote class="blog-prompt">
-<p>i was thinking something liek wordle, word ladder, or 24</p>
-</blockquote>
-
-(sorry for the poor prompting, I was _really_ sleepy)
-
-<aside class="blog-ai-response" data-model="claude">
-<p class="blog-ai-label">Claude</p>
-<p>Fun! So the spirit we're going for is:</p>
-<ul>
-<li>One elegant rule that's easy to learn</li>
-<li>Daily challenge format (same puzzle for everyone)</li>
-<li>Satisfying to solve, shareable result</li>
-<li>No fluff — just the game</li>
-</ul>
-<p>Here are some fresh ideas in that spirit:</p>
-<p><strong>🔢 Number-y</strong></p>
-<ul>
-<li><strong>Sequence</strong> — given 3 numbers in a pattern, guess the 4th. Gets harder each round</li>
-<li><strong>Split</strong> — given one number (like 100), split it into parts that multiply/add to a target</li>
-</ul>
-<p><strong>🔤 Word-y</strong></p>
-<ul>
-<li><strong>One Away</strong> — given a word, change exactly one letter to match a definition clue. Like Wordle meets crossword</li>
-<li><strong>Common Thread</strong> — 4 words shown, find the one hidden word that connects them all (like NYT Connections but simpler)</li>
-</ul>
-<p><strong>🧠 Logic-y</strong></p>
-<ul>
-<li><strong>Paths</strong> — a 4x4 grid, draw a path that visits every cell exactly once. Minimalist and beautiful</li>
-<li><strong>Bridges</strong> — connect islands with bridges, numbers tell you how many each island needs</li>
-</ul>
-<p>My honest pick for you:</p>
-<p><strong>Common Thread</strong> — it's fresh, elegant, very aesthetic (clean grid of words), easy to validate if it's fun, and nothing quite nails the simple version of it yet.</p>
-<p>Which of these feels right? Or I can mash two together 🎮</p>
-</aside>
-
-Split and Bridges seemed the best options to me, but Split felt too much like a math problem (essentially an extended version of rote factorization), and Bridges existed already.
-
-It was almost comical! These simple human-invented games like Wordle or 24 bring so much joy, yet every LLM-generated puzzle I tried felt completely devoid of any spark that makes them fun. It made intuitive sense that they didn't come up with anything new, of course; next token prediction is limited to its training data-- I was just incredibly amused by how these models, with all their pattern recognition skills, couldn't seem to imitate what made something enjoyable!
+It was almost comical! These simple human-invented games like Wordle or 24 bring so much joy, yet every LLM-generated puzzle I tried felt completely devoid of any spark that makes them fun. It made intuitive sense that the LLMs couldn't come up with anything new, of course; next token prediction is limited to its training data-- I was just incredibly amused by how these models, with all their pattern recognition skills, couldn't seem to imitate what made something enjoyable!
 
 That led to the natural next question, what _does_ make a puzzle fun? Is there any way to quantify it or verify/construct it algorithmically?
 
