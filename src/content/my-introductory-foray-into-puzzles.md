@@ -177,7 +177,7 @@ Maybe this is it.
 <p>This becomes surprisingly creative.</p>
 </aside>
 
-Bro. This is the same thing as 24, simply worse.
+Bro. This was the same thing as 24, simply worse.
 
 ChatGPT continued to list ideas that already existed and/or were simply boring. Of course, my prompts could use some work, but I doubt that was the main issue. Okay, I thought (still lazy), maybe my free tier of ChatGPT just doesn't cut it!
 
