@@ -1,4 +1,4 @@
-At the start of summer, I had resolved to create more things, as well as be more creative (which are not the same thing, now less than ever).
+At the start of summer, I had resolved to create more things, as well as be more creative (which are different things, now more than ever).
 
 In order to create with less pressure and no confounding incentives, I aimed on making things that were fun and not necessarily practical. I wanted to create for the sake of creating without worrying about "would anyone ever buy this" or "how would this make money." Of course, eventually, I want to build things that are useful and impactful (and monetizable). Good product sense is a different skill than original creation, however, and I wanted to develop the latter.
 
