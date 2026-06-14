@@ -179,7 +179,7 @@ Maybe this is it.
 
 Bro. This was the same thing as 24, simply worse.
 
-ChatGPT continued to list ideas that already existed and/or were simply boring. Of course, my prompts could have used some work, but I doubt that was the main issue. More for fun now than anything else, I tried to see if Claude could do any better. Below is the following conversation I had with Claude:
+ChatGPT continued to list ideas that already existed and/or were simply boring. Of course, my prompts could have used some work, but I doubt that was the main issue. More for fun now than anything else, I tried to see if Claude could do any better:
 
 <blockquote class="blog-prompt">
 <p>create a new, interesting, unique puzzle type that no one has created before.</p>
