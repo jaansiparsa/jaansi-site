@@ -114,7 +114,7 @@ Word Ladder exists already. You know this idea is saturated when it's a Leetcode
 
 Um. What.
 
-The rest of the 10+ answers ChatGPT generated were of the same vein; sometmies small variations on existing games, sometimes existing games, and sometimes games that didn't exist due to the fact that they were horrible ideas. Additionally, many of the "games" depended on semantic meaning, making them hard to easily validate. Thinking of games like 24 or Sudoku, this is is something that makes puzzles (in my opinion) much more fun-- automatically knowing whether you are correct or you need to keep trying.
+The rest of the 10+ answers ChatGPT generated were of the same vein; sometmies small variations on existing games, sometimes existing games, and sometimes games that didn't exist due to the fact that they were horrible ideas. Additionally, many of the "games" depended on semantic meaning, making them hard to easily validate. Thinking of games like 24 or Sudoku, this is something that makes puzzles (in my experience) much more fun-- automatically knowing whether you are correct or you need to keep trying.
 
 <blockquote class="blog-prompt">
 <p>or something like the math game 24</p>
