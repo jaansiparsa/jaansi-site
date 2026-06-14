@@ -231,7 +231,7 @@ Are we serious right now? Let me be more clear.
 <p>Which of these feels right? Or I can mash two together 🎮</p>
 </aside>
 
-Split and Bridges seemed the best options to me, but split felt too much like a math problem (essentially an extended version of rote factorization), and Bridges existed already.
+Split and Bridges seemed the best options to me, but Split felt too much like a math problem (essentially an extended version of rote factorization), and Bridges existed already.
 
 It was almost comical! These simple human-invented games like Wordle or 24 bring so much joy, yet every LLM-generated puzzle I tried felt completely devoid of any spark that makes them fun. It made intuitive sense that they didn't come up with anything new, of course; next token prediction is limited to its training data-- I was just incredibly amused by how these models, with all their pattern recognition skills, couldn't seem to imitate what made something enjoyable!
 
