@@ -87,7 +87,7 @@ I was shocked. How could anyone (anything) come up with this and even think to c
 </ul>
 </aside>
 
-Word Ladder exists already. You know this idea is saturated when it's a Leetcode question.
+Word Ladder exists already. You know the idea is saturated when it's a Leetcode question.
 
 <aside class="blog-ai-response" data-model="chatgpt">
 <p class="blog-ai-label">ChatGPT</p>
