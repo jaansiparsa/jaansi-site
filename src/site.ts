@@ -257,14 +257,14 @@ export const creations: Creation[] = [
     date: "June 13, 2026",
     href: "/blog/my-first-puzzles",
   },
-  {
-    id: "my-introductory-foray-into-puzzles",
-    kind: "blog",
-    title: "My Introductory Foray into Puzzles",
-    description: ["The first time I was happy Claude let me down"],
-    date: "June 13, 2026",
-    href: "/blog/my-introductory-foray-into-puzzles",
-  },
+  // {
+  //   id: "my-introductory-foray-into-puzzles",
+  //   kind: "blog",
+  //   title: "My Introductory Foray into Puzzles",
+  //   description: ["The first time I was happy Claude let me down"],
+  //   date: "June 13, 2026",
+  //   href: "/blog/my-introductory-foray-into-puzzles",
+  // },
   {
     id: "satellite",
     kind: "video",
