@@ -193,11 +193,13 @@ ChatGPT continued to list ideas that already existed and/or were simply boring. 
 <p>Give it a try — type your guess and hit Submit. Hit Hint if you want nudges, and let me know what you think of the format!</p>
 </aside>
 
-Are we serious right now.
+Are we serious right now? Let me be more clear.
 
 <blockquote class="blog-prompt">
 <p>i was thinking something liek wordle, word ladder, or 24</p>
 </blockquote>
+
+(sorry for the poor prompting, I was _really_ sleepy)
 
 <aside class="blog-ai-response" data-model="claude">
 <p class="blog-ai-label">Claude</p>
