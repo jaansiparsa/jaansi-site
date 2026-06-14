@@ -1,4 +1,5 @@
 import articleMarkdown from "./content/what-is-your-goal-in-life.md?raw";
+import firstPuzzlesMarkdown from "./content/my-first-puzzles.md?raw";
 import forayMarkdown from "./content/my-introductory-foray-into-puzzles.md?raw";
 
 export type BlogPost = {
@@ -10,6 +11,13 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "my-first-puzzles",
+    title: "My First Puzzles",
+    description: ["Akari"],
+    date: "June 13, 2026",
+    body: firstPuzzlesMarkdown,
+  },
   {
     slug: "my-introductory-foray-into-puzzles",
     title: "My Introductory Foray into Puzzles",

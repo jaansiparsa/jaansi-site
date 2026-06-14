@@ -250,6 +250,14 @@ export type Creation = {
 
 export const creations: Creation[] = [
   {
+    id: "my-first-puzzles",
+    kind: "blog",
+    title: "My First Puzzles",
+    description: ["Akari"],
+    date: "June 13, 2026",
+    href: "/blog/my-first-puzzles",
+  },
+  {
     id: "my-introductory-foray-into-puzzles",
     kind: "blog",
     title: "My Introductory Foray into Puzzles",
