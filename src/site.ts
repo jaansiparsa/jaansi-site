@@ -233,6 +233,7 @@ export const experiences: Experience[] = [
 export type CreationKind =
   | "project"
   | "blog"
+  | "essay"
   | "writing"
   | "art"
   | "video"
@@ -249,6 +250,14 @@ export type Creation = {
 
 export const creations: Creation[] = [
   {
+    id: "my-introductory-foray-into-puzzles",
+    kind: "blog",
+    title: "My Introductory Foray into Puzzles",
+    description: ["The first time I was happy Claude let me down"],
+    date: "June 13, 2026",
+    href: "/blog/my-introductory-foray-into-puzzles",
+  },
+  {
     id: "satellite",
     kind: "video",
     title: "Satellite",
@@ -258,7 +267,7 @@ export const creations: Creation[] = [
   },
   {
     id: "what-is-your-goal-in-life",
-    kind: "blog",
+    kind: "essay",
     title: "What is your goal in life?",
     description: ["I hope it is not happiness."],
     date: "May 23, 2026",

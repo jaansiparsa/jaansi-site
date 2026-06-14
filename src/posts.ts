@@ -1,4 +1,5 @@
 import articleMarkdown from "./content/what-is-your-goal-in-life.md?raw";
+import forayMarkdown from "./content/my-introductory-foray-into-puzzles.md?raw";
 
 export type BlogPost = {
   slug: string;
@@ -9,6 +10,13 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "my-introductory-foray-into-puzzles",
+    title: "My Introductory Foray into Puzzles",
+    description: ["The first time I was happy Claude let me down"],
+    date: "June 13, 2026",
+    body: forayMarkdown,
+  },
   {
     slug: "what-is-your-goal-in-life",
     title: "What is your goal in life?",

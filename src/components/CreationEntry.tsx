@@ -5,6 +5,7 @@ import type { Creation } from "../site";
 const kindLabel: Record<Creation["kind"], string> = {
   project: "project",
   blog: "blog",
+  essay: "essay",
   writing: "writing",
   art: "art",
   video: "video",

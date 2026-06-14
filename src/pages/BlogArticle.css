@@ -100,3 +100,96 @@
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+.blog-article-body blockquote.blog-prompt {
+  margin: 1.5rem 0;
+  padding: 0.85rem 1rem 0.85rem 1.1rem;
+  border-left: 3px solid var(--fg);
+  background: transparent;
+}
+
+.blog-article-body blockquote.blog-prompt::before {
+  content: "me";
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fg);
+}
+
+.blog-article-body blockquote.blog-prompt p {
+  margin: 0;
+  font-style: italic;
+  color: var(--fg);
+}
+
+.blog-article-body blockquote:not(.blog-prompt) {
+  margin: 1.5rem 0;
+  padding: 0 0 0 1rem;
+  border-left: 2px solid var(--muted);
+  color: var(--muted);
+}
+
+.blog-article-body blockquote:not(.blog-prompt) p {
+  margin: 0 0 0.65rem;
+}
+
+.blog-article-body blockquote:not(.blog-prompt) p:last-child {
+  margin-bottom: 0;
+}
+
+.blog-ai-response {
+  margin: 1.5rem 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid color-mix(in srgb, var(--muted) 35%, transparent);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--muted) 8%, transparent);
+}
+
+.blog-ai-label {
+  margin: 0 0 0.75rem;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.blog-ai-response[data-model="chatgpt"] .blog-ai-label::before {
+  content: "◆ ";
+}
+
+.blog-ai-response[data-model="claude"] .blog-ai-label::before {
+  content: "◆ ";
+}
+
+.blog-ai-response > *:last-child {
+  margin-bottom: 0;
+}
+
+.blog-ai-response p {
+  margin: 0 0 0.75rem;
+}
+
+.blog-ai-response h3 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: none;
+  color: var(--fg);
+}
+
+.blog-ai-response h3:first-of-type {
+  margin-top: 0;
+}
+
+.blog-ai-response ul {
+  margin: 0 0 0.75rem;
+  padding-left: 1.25rem;
+}
+
+.blog-ai-response li {
+  margin: 0 0 0.4rem;
+}
