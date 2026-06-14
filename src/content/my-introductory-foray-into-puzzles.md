@@ -197,6 +197,4 @@ At their best, puzzles exploit the natural human instinct to find pleasure of di
 
 A computer can solve a puzzle. With enough compute, it can also generate millions of valid ones. It can verify that a Sudoku has a unique solution, estimate difficulty, or exhaustively search for sequences of moves that satisfy a constraint.
 
-But validity is not the same as design. The moment of discovery—- that _eureka_ moment that puzzle designers create—- still resists being reduced to rules. If generating a valid puzzle is easy and generating a beautiful one is hard, then there must be something worth understanding in the gap between the two, and that's what I want to learn!
-
-In short, I can't ask Claude to generate my puzzles for me.
+But validity is not the same as design. The moment of discovery—- that _eureka_ moment that puzzle designers create—- still resists being reduced to rules. If generating a valid puzzle is easy and generating a beautiful one is hard, then there must be something worth understanding in the gap between the two, and that's what I want to learn.
