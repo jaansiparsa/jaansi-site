@@ -18,7 +18,7 @@ export const pages: Record<PageSlug, { title: string; paragraphs: string[] }> =
     },
     creations: {
       title: "creations",
-      paragraphs: ["more coming soon!"],
+      paragraphs: [],
     },
     curations: {
       title: "curations",
