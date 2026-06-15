@@ -1,6 +1,7 @@
 import articleMarkdown from "./content/what-is-your-goal-in-life.md?raw";
 import firstPuzzlesMarkdown from "./content/my-first-puzzles.md?raw";
 import forayMarkdown from "./content/my-introductory-foray-into-puzzles.md?raw";
+import passportMarkdown from "./content/passport-pictures-and-other-strangers.md?raw";
 
 export type BlogPost = {
   slug: string;
@@ -11,6 +12,13 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "passport-pictures-and-other-strangers",
+    title: "Passport Pictures and Other Strangers",
+    description: ["My passport arrived in the mail today."],
+    date: "June 14, 2026",
+    body: passportMarkdown,
+  },
   {
     slug: "my-first-puzzles",
     title: "My First Puzzles",
