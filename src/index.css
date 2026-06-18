@@ -10,6 +10,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root[data-theme="dark"] {
+  --fg: #ffffff;
+  --muted: #aaaaaa;
+  --bg: #000000;
+  --border: #333333;
+}
+
 *,
 *::before,
 *::after {

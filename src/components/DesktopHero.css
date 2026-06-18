@@ -14,6 +14,66 @@
   overflow: hidden;
 }
 
+.desktop-scene--dark {
+  background: #000000;
+}
+
+.desktop-scene--dark .desktop-item {
+  color: #ffffff;
+}
+
+.desktop-scene--dark .desktop-item:focus-visible {
+  outline-color: #ffffff;
+}
+
+.hero-figure {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 1;
+  transform: translateX(-50%);
+  width: min(520px, 72vw);
+  max-height: 78vh;
+  pointer-events: none;
+}
+
+.hero-figure--sketch {
+  width: min(500px, 69vw);
+}
+
+.hero-sketch-glow {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  z-index: 0;
+  width: 82%;
+  height: 88%;
+  transform: translateX(-50%);
+  background:
+    radial-gradient(
+      ellipse 78% 88% at 50% 58%,
+      rgba(255, 248, 235, 0.55) 0%,
+      rgba(255, 236, 210, 0.28) 32%,
+      rgba(255, 220, 180, 0.12) 52%,
+      transparent 76%
+    ),
+    radial-gradient(
+      ellipse 52% 62% at 50% 62%,
+      rgba(255, 255, 255, 0.35) 0%,
+      transparent 72%
+    );
+  filter: blur(26px);
+  pointer-events: none;
+}
+
+.hero-figure--sketch .hero-photo {
+  position: relative;
+  z-index: 1;
+  transform: scale(0.9);
+  transform-origin: bottom center;
+  filter: none;
+}
+
 .light-effects {
   position: absolute;
   inset: 0;
@@ -81,16 +141,11 @@
 }
 
 .hero-photo {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  z-index: 1;
-  transform: translateX(-50%);
-  width: min(520px, 72vw);
+  display: block;
+  width: 100%;
   max-height: 78vh;
   object-fit: contain;
   object-position: bottom center;
-  pointer-events: none;
   user-select: none;
   filter: drop-shadow(0 18px 28px rgba(42, 42, 42, 0.18))
     drop-shadow(0 6px 12px rgba(42, 42, 42, 0.1));
@@ -153,8 +208,16 @@
     width: clamp(60px, 17vw, 76px);
   }
 
-  .hero-photo {
+  .hero-figure {
     width: min(380px, 88vw);
+    max-height: 70vh;
+  }
+
+  .hero-figure--sketch {
+    width: min(365px, 85vw);
+  }
+
+  .hero-photo {
     max-height: 70vh;
   }
 

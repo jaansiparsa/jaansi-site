@@ -1,6 +1,8 @@
+import "./DesktopHero.css";
+
 import { Link } from "react-router-dom";
 import { desktopItems } from "../site";
-import "./DesktopHero.css";
+import { useTheme } from "../theme";
 
 const smallFloorLights = [
   { left: "2%", bottom: "22%", rotate: 4, scale: 1.45 },
@@ -14,15 +16,20 @@ const smallFloorLights = [
 ] as const;
 
 export function DesktopHero() {
+  const { theme } = useTheme();
+  const dark = theme === "dark";
+
   return (
     <section className="desktop-hero" aria-label="Home">
-      <div className="desktop-scene">
-        <img
-          src="/lighteffects.png"
-          alt=""
-          className="light-effects"
-          aria-hidden="true"
-        />
+      <div className={`desktop-scene${dark ? " desktop-scene--dark" : ""}`}>
+        {!dark && (
+          <img
+            src="/lighteffects.png"
+            alt=""
+            className="light-effects"
+            aria-hidden="true"
+          />
+        )}
 
         {desktopItems.map((item) => (
           <Link
@@ -40,39 +47,46 @@ export function DesktopHero() {
               right: item.right,
             }}
           >
-            <img src={item.icon} alt="" />
+            <img src={dark ? "/whitefolder.png" : item.icon} alt="" />
             <span>{item.label}</span>
           </Link>
         ))}
 
-        <img
-          src="/heropic.png"
-          alt="Jaansi working on a laptop"
-          className="hero-photo"
-        />
-
-        <div className="hero-floor-lights" aria-hidden="true">
-          {smallFloorLights.map((light, index) => (
-            <img
-              key={index}
-              src="/smallfloorlight.png"
-              alt=""
-              className="small-floor-light"
-              style={{
-                left: light.left,
-                bottom: light.bottom,
-                transform: `rotate(${light.rotate}deg) scale(${light.scale})`,
-              }}
-            />
-          ))}
+        <div className={dark ? "hero-figure hero-figure--sketch" : "hero-figure"}>
+          {dark && <div className="hero-sketch-glow" aria-hidden="true" />}
+          <img
+            src={dark ? "/sketchjaansi.png" : "/heropic.png"}
+            alt={dark ? "Jaansi sketch" : "Jaansi working on a laptop"}
+            className="hero-photo"
+          />
         </div>
 
-        <img
-          src="/floorlighteffects.png"
-          alt=""
-          className="floor-light-effects"
-          aria-hidden="true"
-        />
+        {!dark && (
+          <>
+            <div className="hero-floor-lights" aria-hidden="true">
+              {smallFloorLights.map((light, index) => (
+                <img
+                  key={index}
+                  src="/smallfloorlight.png"
+                  alt=""
+                  className="small-floor-light"
+                  style={{
+                    left: light.left,
+                    bottom: light.bottom,
+                    transform: `rotate(${light.rotate}deg) scale(${light.scale})`,
+                  }}
+                />
+              ))}
+            </div>
+
+            <img
+              src="/floorlighteffects.png"
+              alt=""
+              className="floor-light-effects"
+              aria-hidden="true"
+            />
+          </>
+        )}
       </div>
     </section>
   );
