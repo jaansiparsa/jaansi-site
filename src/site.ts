@@ -250,6 +250,16 @@ export type Creation = {
 
 export const creations: Creation[] = [
   {
+    id: "akari-state-graph",
+    kind: "project",
+    title: "Akari Game State Graph",
+    description: [
+      "interactive game state graph explorer for the light up puzzle",
+    ],
+    date: "June 19, 2026",
+    href: "/akari",
+  },
+  {
     id: "passport-pictures-and-other-strangers",
     kind: "essay",
     title: "Passport Pictures and Other Strangers",
