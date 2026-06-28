@@ -56,7 +56,7 @@ export function DesktopHero() {
           {dark && <div className="hero-sketch-glow" aria-hidden="true" />}
           <img
             src={dark ? "/sketchjaansi.png" : "/heropic.png"}
-            alt={dark ? "Jaansi sketch" : "Jaansi working on a laptop"}
+            alt="Hi, I'm Jaansi! I like learning && building && sharing knowledge && helping people! Super glad you're here <3"
             className="hero-photo"
           />
         </div>
