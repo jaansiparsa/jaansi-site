@@ -9,7 +9,6 @@ import {
   type CyElement,
   type CyNodeData,
 } from "../lib/akari";
-import { useTheme } from "../theme";
 import "./AkariPage.css";
 
 cytoscape.use(dagre);
@@ -30,15 +29,12 @@ function makeBoard(rows: number, cols: number, prev?: Board): Board {
   );
 }
 
-function getCyStyle(theme: "light" | "dark") {
-  const isDark = theme === "dark";
-  const mid = isDark ? "#3a3a5a" : "#b0ac9f";
-  const edge = isDark ? "#2a2a50" : "#ccc8be";
+function getCyStyle() {
   return [
     {
       selector: "node",
       style: {
-        "background-color": mid,
+        "background-color": "#b0ac9f",
         width: 14,
         height: 14,
         "border-width": 0,
@@ -56,7 +52,7 @@ function getCyStyle(theme: "light" | "dark") {
     },
     {
       selector: "node.dead",
-      style: { "background-color": isDark ? "#7a2020" : "#c0392b" },
+      style: { "background-color": "#c0392b" },
     },
     {
       selector: "node:selected",
@@ -66,8 +62,8 @@ function getCyStyle(theme: "light" | "dark") {
       selector: "edge",
       style: {
         width: 1,
-        "line-color": edge,
-        "target-arrow-color": edge,
+        "line-color": "#ccc8be",
+        "target-arrow-color": "#ccc8be",
         "target-arrow-shape": "triangle",
         "curve-style": "bezier",
         "arrow-scale": 0.6,
@@ -93,8 +89,6 @@ type WorkerResult =
   | { type: "error"; message: string };
 
 export function AkariPage() {
-  const { theme } = useTheme();
-
   const [rows, setRows] = useState(3);
   const [cols, setCols] = useState(3);
   const [board, setBoard] = useState<Board>(() => makeBoard(3, 3));
@@ -113,14 +107,6 @@ export function AkariPage() {
   const cyContainerRef = useRef<HTMLDivElement>(null);
   const cyRef = useRef<cytoscape.Core | null>(null);
   const workerRef = useRef<Worker | null>(null);
-
-  // Keep Cytoscape style in sync with theme without destroying the graph
-  useEffect(() => {
-    if (!cyRef.current) return;
-    cyRef.current.style(
-      getCyStyle(theme) as Parameters<typeof cyRef.current.style>[0],
-    );
-  }, [theme]);
 
   // Clean up on unmount
   useEffect(() => {
@@ -183,7 +169,7 @@ export function AkariPage() {
     const cy = cytoscape({
       container: cyContainerRef.current,
       elements: elements as cytoscape.ElementDefinition[],
-      style: getCyStyle(theme),
+      style: getCyStyle(),
       layout: {
         name: "dagre",
         rankDir: "TB",
@@ -380,21 +366,11 @@ export function AkariPage() {
                 solution
               </span>
               <span className="ak-li">
-                <span
-                  className="ak-dot"
-                  style={{
-                    background: theme === "dark" ? "#3a3a5a" : "#b0ac9f",
-                  }}
-                />
+                <span className="ak-dot" style={{ background: "#b0ac9f" }} />
                 partial
               </span>
               <span className="ak-li">
-                <span
-                  className="ak-dot"
-                  style={{
-                    background: theme === "dark" ? "#7a2020" : "#c0392b",
-                  }}
-                />
+                <span className="ak-dot" style={{ background: "#c0392b" }} />
                 dead-end
               </span>
             </div>

@@ -10,21 +10,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[data-theme="light"] {
-  --fg: #2a2a2a;
-  --muted: #666;
-  --bg: #ebe6dc;
-  --border: #d8d3c8;
-}
-
-:root[data-theme="dark"],
-[data-theme="dark"] {
-  --fg: #ffffff;
-  --muted: #aaaaaa;
-  --bg: #000000;
-  --border: #333333;
-}
-
 *,
 *::before,
 *::after {
