@@ -72,9 +72,9 @@ Almost everyone agrees that more housing is needed in high-demand cities. Yet bu
 
 For an individual homeowner, opposing new construction can be completely rational. The costs– disruption, construction, neighborhood change– are immediate and local. The benefits of more housing are broader and distributed across the region. Local governments face the same asymmetry: the costs of growth are concentrated, while many benefits accrue elsewhere.
 
-The result is an equilibrium where every actor is making a reasonable decision given their incentives, but the collective outcome is a housing shortage that makes everyone worse off. A mechanism-design lens asks how you redesign incentives so individual decisions better align with societal goals– rewarding jurisdictions that build, ensuring communities capture more of the benefits of growth, simplifying approval processes. The problem isn't that people are irrational. It's that rational decisions inside a badly designed system can and will produce outcomes we don't want.
+The result is an equilibrium where every actor is making a reasonable decision given their incentives, but the collective outcome is a housing shortage that makes everyone worse off. A mechanism-design lens asks how you redesign incentives so individual decisions better align with societal goals– funding schools and parks in jurisdictions that build, simplifying approval processes.
 
-Online platforms are maybe the clearest modern example of how fast incentives can shape behavior at scale, which I have a LOT of thoughts on, but will maybe save for a separate essay.
+Online platforms are maybe the most interesting modern example of how fast incentives can shape behavior at scale, which I have a LOT of thoughts on, but will maybe save for a separate essay.
 
 ---
 
