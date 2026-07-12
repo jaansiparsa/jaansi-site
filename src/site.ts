@@ -250,6 +250,13 @@ export type Creation = {
 
 export const creations: Creation[] = [
   {
+    id: "flipper",
+    kind: "project",
+    title: "Flipper",
+    description: ["a heads up style karaoke game"],
+    href: "/video/flipper",
+  },
+  {
     id: "akari-state-graph",
     kind: "project",
     title: "Akari Game State Graph",

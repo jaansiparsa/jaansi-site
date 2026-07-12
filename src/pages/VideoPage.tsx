@@ -21,14 +21,30 @@ export function VideoPage() {
         </p>
       ))}
       {video.date && <time className="video-date">{video.date}</time>}
+      {video.intro?.map((line) => (
+        <p key={line} className="video-body">
+          {line}
+        </p>
+      ))}
       <div className="video-embed">
-        <iframe
-          src={`https://www.youtube.com/embed/${video.youtubeId}`}
-          title={video.title}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        />
+        {video.src ? (
+          <video controls playsInline preload="metadata" title={video.title}>
+            <source src={video.src} type="video/mp4" />
+          </video>
+        ) : (
+          <iframe
+            src={`https://www.youtube.com/embed/${video.youtubeId}`}
+            title={video.title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        )}
       </div>
+      {video.footer?.map((line) => (
+        <p key={line} className="video-body">
+          {line}
+        </p>
+      ))}
     </article>
   );
 }
