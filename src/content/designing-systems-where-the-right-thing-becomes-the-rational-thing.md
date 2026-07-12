@@ -28,7 +28,7 @@ The FCC spectrum auctions work the same way. Rather than asking regulators to de
 
 Some of the most powerful examples involve problems that didn't look like design problems at all.
 
-Kidney donation has a matching problem: you might want to donate to a loved one but be biologically incompatible. The traditional system had no way to solve this. Economist Alvin Roth recognized that the problem wasn't a lack of altruism — it was a failure of coordination. By redesigning the system as an exchange, donor A could give to recipient B's loved one while donor B gave to recipient C's, creating chains that allowed more patients to receive kidneys.
+Kidney donation has a matching problem: you might want to donate to a loved one but be biologically incompatible. The traditional system had no way to solve this. Economist Alvin Roth recognized that the problem wasn't a lack of altruism, but rather one of coordination. By redesigning the system as an exchange, donor A could give to recipient B's loved one while donor B gave to recipient C's, creating chains that allowed more patients to receive kidneys.
 
 Nobody became more generous. The system simply created paths through which existing generosity could flow.
 
