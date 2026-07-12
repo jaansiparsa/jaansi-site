@@ -1,4 +1,4 @@
-Every major policy debate sounds like this: people are doing X bad thing, we don't want them to do X bad thing! Let's now argue over whether or not we should add more rules, or enforcement, or punishment. It sounds intuitive at first: if people are doing the wrong thing, stop them from doing it!
+Every major policy debate sounds like this: people are doing X bad thing, we don't want them to do X bad thing! Let's now argue over whether or not we should add more rules, or enforcement, or punishment.
 
 It makes sense intuitively; If people are doing the wrong thing, stop them from doing it! But this framing is based on the assumption that the gap between what people are doing and what we want them to do is a compliance problem.
 
@@ -10,7 +10,7 @@ I've been thinking a lot about a field called mechanism design, which sits at th
 
 It starts from a simple observation: people respond to incentives. Systems create equilibria. The same people will cooperate, innovate, and contribute in one system which rewards these behaviors, while competing destructively or cheating in another.
 
-A good mechanism does two things: it aligns incentives and reveals information that would otherwise be hidden. The challenge isn't *responding* to human behaviors. It's designing environments where individual incentives and collective outcomes point in the same direction.
+A good mechanism does two things: it aligns incentives and reveals information that would otherwise be hidden. The challenge isn't _responding_ to human behaviors. It's designing environments where individual incentives and collective outcomes point in the same direction.
 
 ---
 
