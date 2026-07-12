@@ -1,3 +1,4 @@
+import designingSystemsMarkdown from "./content/designing-systems-where-the-right-thing-becomes-the-rational-thing.md?raw";
 import articleMarkdown from "./content/what-is-your-goal-in-life.md?raw";
 import firstPuzzlesMarkdown from "./content/my-first-puzzles.md?raw";
 import forayMarkdown from "./content/my-introductory-foray-into-puzzles.md?raw";
@@ -12,6 +13,13 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "designing-systems-where-the-right-thing-becomes-the-rational-thing",
+    title: "Designing Systems Where the Right Thing Becomes the Rational Thing",
+    description: ["on mechanism design"],
+    date: "July 12, 2026",
+    body: designingSystemsMarkdown,
+  },
   {
     slug: "passport-pictures-and-other-strangers",
     title: "Passport Pictures and Other Strangers",
