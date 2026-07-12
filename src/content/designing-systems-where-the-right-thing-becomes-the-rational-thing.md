@@ -12,7 +12,7 @@ An example that illustrates this clearly: You are a leader of an organization wh
 
 To sum it up: people respond to incentives. Systems create equilibria. The same people will cooperate, innovate, and contribute in one system which rewards these behaviors, while competing destructively or cheating in another.
 
-A good mechanism does two things: it aligns incentives and reveals information that would otherwise be hidden. The challenge isn't _responding_ to human behaviors. It's designing environments where individual incentives and collective outcomes point in the same direction.
+A good mechanism does two things: it aligns incentives and reveals information that would otherwise be hidden. The challenge isn't _responding_ to human behaviors, but rather designing environments where individual incentives and collective outcomes point in the same direction.
 
 ---
 
