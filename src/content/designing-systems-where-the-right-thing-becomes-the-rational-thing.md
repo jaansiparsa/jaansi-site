@@ -64,8 +64,6 @@ The more interesting question is whether you can realign those incentives. Space
 
 Switching to fixed-price contracts changed the equilibrium entirely. Now SpaceX had a direct incentive to innovate, reduce costs, and actually succeed. The government didn't need SpaceX to prioritize the public good out of altruism. It just needed to structure the contract so that SpaceX's private incentives and public goals pointed in the same direction.
 
-Mechanism design applied to the public-private boundary could possibly be one of the most underused tools in policy.
-
 ---
 
 ## The Housing Paradox
