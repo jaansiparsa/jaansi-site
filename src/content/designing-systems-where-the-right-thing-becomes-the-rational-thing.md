@@ -48,9 +48,9 @@ Research funding is an obvious example. Society wants groundbreaking discoveries
 
 Scientists are optimizing exactly what we've asked them to optimize, but as Goodhart's Law puts quite succinctly: When a measure becomes a target, it stops being a good measure.
 
-A mechanism-design perspective asks a different question: if our true goal is scientific progress, why is the paper the unit we reward rather than the idea itself? Prediction markets for research outcomes, longer-term funding structures, milestone-based grants– none of these are simple, but the fact that alternatives are imaginable means the current system isn't "natural," It's a design choice.
+A mechanism-design perspective asks a different question: if our true goal is scientific progress, why is the paper the unit? Prediction markets for research outcomes, longer-term funding structures, milestone-based grants– none of these are simple, but the fact that alternatives are imaginable means the current system isn't "natural," It's a design choice.
 
-Organizations face the same trap. Companies say they want collaboration but build incentive systems that reward individual achievement. Culture isn't what leaders say they value, it's the equilibrium produced by the incentives people actually face.
+Organizations face the same trap. How can you say you want collaboration but build incentive systems that reward individual achievement? Culture isn't what leaders say they value, it's the equilibrium produced by the incentives people actually face.
 
 ---
 
