@@ -33,7 +33,7 @@ What I am trying to say is you don’t need to define what makes you happy to be
 
 Anyway.
 
-This is not a topic I have thought a lot about, so it is quite possible you will find a counterexample or logical fallacy somewhere here. Nor is it a topic I believe one should think much about on a personal level because it is hard to go anywhere but in circles by thinking rather than doing.
+This is not a topic I have thought a lot about (so maybe you will find a counterexample!), but nor is it a topic I believe one should think much about on a personal level because it is hard to go anywhere but in circles by thinking rather than doing.
 
 Regardless, all this to say I would like to hear less of “do what makes you happy” and more of “become who you would like to be.”
 
