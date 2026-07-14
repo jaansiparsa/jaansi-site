@@ -86,8 +86,6 @@ It is so easy for any community, whether it be professional, academic, or civic,
 
 The solution isn't assuming people will become more generous. It's designing systems where cooperation becomes visible and rewarded. Reputation systems, contribution histories, trusted networks, and general strong norms could all be used for this purpose: making generosity legible, so that cooperation becomes a safer strategy than defection.
 
-The communities that actually achieve this feel qualitatively different. They're not successful because everyone is unusually selfless. They're successful because the system makes generosity rational. They're greater than the sum of their parts by design.
-
 ---
 
 ## Conclusion
