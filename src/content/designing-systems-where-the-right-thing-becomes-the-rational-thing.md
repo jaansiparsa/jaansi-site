@@ -36,7 +36,7 @@ This system didn't rely on people becoming more generous, or try to change human
 
 School choice has a similar issue. Under competitive admissions systems, families quickly learn that stating their true preferences can be irrational. You should apply strategically, not honestly. The deferred acceptance matching algorithm changes this: truth-telling becomes the best strategy because gaming the system no longer provides an advantage. The same idea now underlies medical residency matching.
 
-These examples share a quiet insight: people weren't behaving badly. They were responding rationally to a badly designed environment. Change the environment, and the equilibrium changes.
+It's always worth asking: are people behaving badly, or are they just responding rationally to a badly designed environment? Change the environment, and the equilibrium changes.
 
 ---
 
