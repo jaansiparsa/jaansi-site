@@ -68,9 +68,7 @@ I've often complained about all the extraordinary people I've met in college all
 
 Again, incentives. Government salaries often can't compete with the private sector. Prestige flows toward startups and private labs. Feedback loops are slower, and the ability to act quickly is constrained. Given those incentives, it's completely rational that technical talent concentrates elsewhere. Blaming the people ignores the system that sorted them there.
 
-The more interesting question is whether you can realign those incentives. SpaceX is one of the clearest examples of what that looks like. For decades, NASA relied on cost-plus contracts, where contractors were reimbursed for expenses plus a fixed margin. The issue wasn't that contractors were uniquely inefficient– the mechanism itself rewarded higher costs and additional complexity.
-
-Switching to fixed-price contracts changed the equilibrium entirely. Now SpaceX had a direct incentive to innovate, reduce costs, and actually succeed. The government didn't need SpaceX to prioritize the public good out of altruism. It just needed to structure the contract so that SpaceX's private incentives and public goals pointed in the same direction.
+The more interesting question is whether you can realign those incentives. More on this soon xx.
 
 ---
 
