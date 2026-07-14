@@ -44,7 +44,7 @@ It's always worth asking: are people behaving badly, or are they just responding
 
 The hardest problems are the ones where we've built the wrong systems and stopped questioning them.
 
-Research funding is an obvious example. Society wants groundbreaking discoveries. But every academic-turned-industry-engineer I know complained about grant cycles, publication counts, and citation metrics making it impossible for them to do the work they wanted– the work that really matters for society as well! The system rewards predictable, incremental, publishable results. Peer reviewers face reputational costs from funding ideas that fail, which pushes evaluation toward safer proposals. Short grant cycles make long-term, uncertain projects harder to justify.
+Research funding is an obvious example. Society wants groundbreaking discoveries. But every academic-turned-industry-engineer I know had complaints about grant cycles, publication counts, and citation metrics making it impossible for them to do the work they wanted– the work that really matters for society as well! The system rewards predictable, incremental, publishable results. Peer reviewers face reputational costs from funding ideas that fail, which pushes evaluation toward safer proposals. Short grant cycles make long-term, uncertain projects harder to justify.
 
 Scientists are optimizing exactly what we've asked them to optimize, but as Goodhart's Law puts quite succinctly: When a measure becomes a target, it stops being a good measure.
 
