@@ -44,6 +44,8 @@ Scientists are optimizing exactly what we've asked them to optimize, but as Good
 
 If our true goal is scientific progress, why is the paper the unit? Prediction markets for research outcomes, longer-term funding structures, milestone-based grants– the current system isn't "natural," It's a design choice.
 
+---
+
 Organizations face the same trap. How can you say you want collaboration but build incentive systems that reward individual achievement? Culture isn't what leaders say they value, it's the equilibrium produced by the incentives people actually face.
 
 ---
