@@ -32,7 +32,7 @@ Some of the most powerful examples involve problems that didn't look like design
 
 Kidney donation has a matching problem: you might want to donate to a loved one but be biologically incompatible. The traditional system had no way to solve this. Economist Alvin Roth recognized that the problem wasn't a lack of altruism, but rather one of coordination. By redesigning the system as an exchange, donor A could give to recipient B's loved one while donor B gave to recipient C's, creating chains that allowed more patients to receive kidneys.
 
-Nobody became more generous. The system simply created paths through which existing generosity could flow.
+This system didn't rely on people becoming more generous, or try to change human behaviors directly, it just created paths through which existing generosity could be rewarded.
 
 School choice has a similar issue. Under competitive admissions systems, families quickly learn that stating their true preferences can be irrational. You should apply strategically, not honestly. The deferred acceptance matching algorithm changes this: truth-telling becomes the best strategy because gaming the system no longer provides an advantage. The same idea now underlies medical residency matching.
 
