@@ -28,27 +28,17 @@ The FCC spectrum auctions work the same way. Rather than asking regulators to de
 
 ## Markets That Were Never Supposed to Exist
 
-Some of the most powerful examples involve problems that didn't look like design problems at all.
+Kidney donation had a matching problem: you might want to donate to a loved one but be biologically incompatible. The traditional system had no way to solve this. Economist Alvin Roth recognized that the problem wasn't a lack of altruism, but rather one of coordination. By redesigning the system as an exchange, donor A could give to recipient B's loved one while donor B gave to recipient C's, creating chains that allowed more patients to receive kidneys.
 
-Kidney donation has a matching problem: you might want to donate to a loved one but be biologically incompatible. The traditional system had no way to solve this. Economist Alvin Roth recognized that the problem wasn't a lack of altruism, but rather one of coordination. By redesigning the system as an exchange, donor A could give to recipient B's loved one while donor B gave to recipient C's, creating chains that allowed more patients to receive kidneys.
-
-This system didn't rely on people becoming more generous, or try to change human behaviors directly, it just created paths through which existing generosity could be rewarded.
-
-School choice has a similar issue. Under competitive admissions systems, families quickly learn that stating their true preferences can be irrational. You should apply strategically, not honestly. The deferred acceptance matching algorithm changes this: truth-telling becomes the best strategy because gaming the system no longer provides an advantage. The same idea now underlies medical residency matching.
+School matching has a similar issue. Under competitive admissions systems, families quickly learned that stating their true preferences can be irrational. You should apply strategically, not honestly. The deferred acceptance matching algorithm changes this: truth-telling becomes the best strategy because gaming the system no longer provides an advantage. The same idea now underlies medical residency matching.
 
 It's always worth asking: are people behaving badly, or are they just responding rationally to a badly designed environment? Change the environment, and the equilibrium changes.
 
----
-
-## The Systems We've Accepted as Inevitable
-
-The hardest problems are the ones where we've built the wrong systems and stopped questioning them.
-
-Research funding is an obvious example. Society wants groundbreaking discoveries. But every academic-turned-industry-engineer I know had complaints about grant cycles, publication counts, and citation metrics making it impossible for them to do the work they wanted– the work that really matters for society as well! The system rewards predictable, incremental, publishable results. Peer reviewers face reputational costs from funding ideas that fail, which pushes evaluation toward safer proposals. Short grant cycles make long-term, uncertain projects harder to justify.
+Research funding is another obvious example. Society wants groundbreaking discoveries. But every academic-turned-industry-engineer I know had complaints about grant cycles, publication counts, and citation metrics making it impossible for them to do the work they wanted– the work that really matters for society as well! The system rewards predictable, incremental, publishable results. Peer reviewers face reputational costs from funding ideas that fail, which pushes evaluation toward safer proposals. Short grant cycles make long-term, uncertain projects harder to justify.
 
 Scientists are optimizing exactly what we've asked them to optimize, but as Goodhart's Law puts quite succinctly: When a measure becomes a target, it stops being a good measure.
 
-A mechanism-design perspective asks a different question: if our true goal is scientific progress, why is the paper the unit? Prediction markets for research outcomes, longer-term funding structures, milestone-based grants– none of these are simple, but the fact that alternatives are imaginable means the current system isn't "natural," It's a design choice.
+If our true goal is scientific progress, why is the paper the unit? Prediction markets for research outcomes, longer-term funding structures, milestone-based grants– the current system isn't "natural," It's a design choice.
 
 Organizations face the same trap. How can you say you want collaboration but build incentive systems that reward individual achievement? Culture isn't what leaders say they value, it's the equilibrium produced by the incentives people actually face.
 
