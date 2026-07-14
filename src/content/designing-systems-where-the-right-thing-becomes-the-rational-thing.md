@@ -78,7 +78,7 @@ Mutual cooperation is another place where I think this framing is extremely appl
 
 It is so easy for any community, whether it be professional, academic, or civic, to get stuck in bad equilibria. Everyone would benefit if people shared knowledge freely, made introductions, and helped each other solve hard problems. But because individuals can't easily tell who will reciprocate, contributing feels risky. The equilibrium tips toward transactional behavior: people help when there's something in it for them, and hedge when there isn't.
 
-The solution isn't assuming people will become more generous. It's designing systems where cooperation becomes visible and rewarded. Reputation systems, contribution histories, trusted networks, and general strong norms could all be used for this purpose: making generosity legible, so that cooperation becomes a safer strategy than defection.
+Maybe the solution isn't trying to convince people to be more generous, but designing systems where cooperation becomes visible and rewarded? Reputation systems, contribution histories, trusted networks, could all be used for this purpose: making generosity legible, so that cooperation becomes a safer strategy than defection.
 
 ---
 
