@@ -257,14 +257,6 @@ export const creations: Creation[] = [
     href: "/video/flipper",
   },
   {
-    id: "designing-systems-where-the-right-thing-becomes-the-rational-thing",
-    kind: "essay",
-    title: "Designing Systems Where the Right Thing Becomes the Rational Thing",
-    description: ["on mechanism design"],
-    date: "July 12, 2026",
-    href: "/blog/designing-systems-where-the-right-thing-becomes-the-rational-thing",
-  },
-  {
     id: "akari-state-graph",
     kind: "project",
     title: "Akari Game State Graph",
