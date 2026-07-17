@@ -129,7 +129,7 @@ export const experiences: Experience[] = [
     period: "fall 2025, swe intern @ Brex",
     image: "/experiences/brexinterns.jpeg",
     lines: [
-      "worked on bill pay and fraud detection agents",
+      "worked on fraud detection agents and agent simulation framework",
       "lived in brooklyn, (jersey city...), and a 10-woman bedroom in a UWS hostel!",
       "made friends ate food had lots of fun",
     ],
