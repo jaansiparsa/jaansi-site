@@ -125,16 +125,12 @@ export const experiences: Experience[] = [
   },
   {
     id: "brex",
-    experience: "swe intern @ Brex",
-    period: "fall 2025, new york city",
+    experience: "sophomore fall in New York City!!!",
+    period: "fall 2025, swe intern @ Brex",
     image: "/experiences/brexinterns.jpeg",
     work: "worked on bill pay and fraud detection agents",
-  },
-  {
-    id: "nyc",
-    experience: "moved to nyc at 18",
-    image: "/experiences/nyc.jpeg",
     lines: [
+      "worked on bill pay and fraud detection agents",
       "lived in brooklyn, (jersey city...), and a 10-woman bedroom in a UWS hostel!",
       "made friends ate food had lots of fun",
     ],
