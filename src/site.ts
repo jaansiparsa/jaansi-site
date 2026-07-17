@@ -128,7 +128,6 @@ export const experiences: Experience[] = [
     experience: "sophomore fall in New York City!!!",
     period: "fall 2025, swe intern @ Brex",
     image: "/experiences/brexinterns.jpeg",
-    work: "worked on bill pay and fraud detection agents",
     lines: [
       "worked on bill pay and fraud detection agents",
       "lived in brooklyn, (jersey city...), and a 10-woman bedroom in a UWS hostel!",
